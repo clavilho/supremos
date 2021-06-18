@@ -1,0 +1,8 @@
+.card {
+  margin-left: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
