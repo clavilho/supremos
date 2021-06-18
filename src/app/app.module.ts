@@ -7,10 +7,11 @@ import { MenuComponent } from './shared/menu/menu.component';
 import { HomeComponent } from './views/home/home.component';
 import { ElencoComponent } from './views/elenco/elenco.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [AppComponent, MenuComponent, HomeComponent, ElencoComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
 })
